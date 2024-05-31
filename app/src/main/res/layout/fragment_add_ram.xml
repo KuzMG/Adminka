@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.add_row.AddEmployeeFragment">
+
+    <EditText
+        android:id="@+id/type_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingTop="15dp"
+
+        android:textSize="11sp"
+        android:hint="type" />
+
+
+    <EditText
+        android:id="@+id/memory_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+
+        android:hint="memory" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:text="добавить"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

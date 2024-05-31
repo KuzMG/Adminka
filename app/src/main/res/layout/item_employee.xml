@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/id_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+    <EditText
+        android:id="@+id/id_edit_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textSize="11sp"
+        app:layout_constraintLeft_toRightOf="@id/id_text_view"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/full_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="full_name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/id_edit_view">
+
+    </TextView>
+    <EditText
+        android:id="@+id/full_name_edit_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/full_name_text_view"
+        app:layout_constraintTop_toBottomOf="@id/id_edit_view"/>
+
+    <TextView
+        android:id="@+id/job_title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="job_title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/full_name_edit_view">
+
+    </TextView>
+    <EditText
+        android:id="@+id/job_title_edit_view"
+        android:layout_width="0dp"
+        android:textSize="11sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/job_title_text_view"
+        app:layout_constraintTop_toBottomOf="@id/full_name_edit_view"/>
+
+
+    <TextView
+        android:id="@+id/phone_number_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="phone_number"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/job_title_edit_view">
+
+    </TextView>
+    <EditText
+        android:id="@+id/phone_number_edit_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/phone_number_text_view"
+        app:layout_constraintTop_toBottomOf="@id/job_title_edit_view"/>
+
+    <TextView
+        android:id="@+id/experience_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="experience"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/phone_number_edit_view">
+
+    </TextView>
+    <EditText
+        android:id="@+id/experience_edit_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/experience_text_view"
+        app:layout_constraintTop_toBottomOf="@id/phone_number_edit_view"/>
+
+    <TextView
+        android:id="@+id/email_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/experience_edit_view">
+
+    </TextView>
+    <EditText
+        android:id="@+id/email_edit_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textSize="11sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/email_text_view"
+        app:layout_constraintTop_toBottomOf="@id/experience_edit_view"/>
+
+
+    <TextView
+        android:id="@+id/salary_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="salary"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email_edit_view">
+
+    </TextView>
+    <EditText
+        android:id="@+id/salary_edit_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/salary_text_view"
+        app:layout_constraintTop_toBottomOf="@id/email_edit_view"/>
+
+    <TextView
+        android:id="@+id/id_room_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id_room"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/salary_edit_view">
+
+    </TextView>
+    <EditText
+        android:id="@+id/id_room_edit_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/id_room_text_view"
+        app:layout_constraintTop_toBottomOf="@id/salary_edit_view"/>
+
+
+    <TextView
+        android:id="@+id/age_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="age"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/id_room_edit_view">
+
+    </TextView>
+    <EditText
+        android:id="@+id/age_edit_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/age_text_view"
+        app:layout_constraintTop_toBottomOf="@id/id_room_edit_view"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    app:layout_constraintTop_toBottomOf="@+id/age_edit_view">
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Обновить"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Удалить"
+        android:layout_weight="1"/>
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

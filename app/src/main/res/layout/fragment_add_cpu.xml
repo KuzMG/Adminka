@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.add_row.AddEmployeeFragment">
+
+    <EditText
+        android:id="@+id/model_edit_text"
+        android:paddingTop="15dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="11sp"
+        android:hint="model" />
+
+
+    <EditText
+        android:id="@+id/cores_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:hint="cores" />
+
+
+    <EditText
+        android:id="@+id/threads_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:hint="threads" />
+
+
+    <EditText
+        android:id="@+id/frequncy_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:hint="frequncy" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:text="добавить"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
